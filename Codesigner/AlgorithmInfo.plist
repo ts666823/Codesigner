@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DataStructure</key>
+	<array>
+		<dict>
+			<key>rawValue</key>
+			<integer>10</integer>
+			<key>imageName</key>
+			<string>list</string>
+			<key>introduction</key>
+			<string>链表是一种物理存储单元上非连续、非顺序的存储结构，数据元素的逻辑顺序是通过链表中的指针链接次序实现的。链表由一系列结点（链表中每一个元素称为结点）组成，结点可以在运行时动态生成。每个结点包括两个部分：一个是存储数据元素的数据域，另一个是存储下一个结点地址的指针域。</string>
+			<key>title</key>
+			<string>链表</string>
+			<key>content</key>
+			<string>数据结构基础</string>
+		</dict>
+		<dict>
+			<key>rawValue</key>
+			<integer>10</integer>
+			<key>imageName</key>
+			<string>graphds</string>
+			<key>introduction</key>
+			<string>链表是一种物理存储单元上非连续、非顺序的存储结构，数据元素的逻辑顺序是通过链表中的指针链接次序实现的。链表由一系列结点（链表中每一个元素称为结点）组成，结点可以在运行时动态生成。每个结点包括两个部分：一个是存储数据元素的数据域，另一个是存储下一个结点地址的指针域。</string>
+			<key>title</key>
+			<string>图结构</string>
+			<key>content</key>
+			<string>数据结构基础</string>
+		</dict>
+		<dict>
+			<key>rawValue</key>
+			<integer>10</integer>
+			<key>imageName</key>
+			<string>bst</string>
+			<key>introduction</key>
+			<string>链表是一种物理存储单元上非连续、非顺序的存储结构，数据元素的逻辑顺序是通过链表中的指针链接次序实现的。链表由一系列结点（链表中每一个元素称为结点）组成，结点可以在运行时动态生成。每个结点包括两个部分：一个是存储数据元素的数据域，另一个是存储下一个结点地址的指针域。</string>
+			<key>title</key>
+			<string>树结构</string>
+			<key>content</key>
+			<string>数据结构基础</string>
+		</dict>
+		<dict>
+			<key>rawValue</key>
+			<integer>10</integer>
+			<key>imageName</key>
+			<string>heap</string>
+			<key>introduction</key>
+			<string>链表是一种物理存储单元上非连续、非顺序的存储结构，数据元素的逻辑顺序是通过链表中的指针链接次序实现的。链表由一系列结点（链表中每一个元素称为结点）组成，结点可以在运行时动态生成。每个结点包括两个部分：一个是存储数据元素的数据域，另一个是存储下一个结点地址的指针域。</string>
+			<key>title</key>
+			<string>堆结构</string>
+			<key>content</key>
+			<string>数据结构基础</string>
+		</dict>
+		<dict>
+			<key>rawValue</key>
+			<integer>10</integer>
+			<key>imageName</key>
+			<string>list</string>
+			<key>introduction</key>
+			<string>链表是一种物理存储单元上非连续、非顺序的存储结构，数据元素的逻辑顺序是通过链表中的指针链接次序实现的。链表由一系列结点（链表中每一个元素称为结点）组成，结点可以在运行时动态生成。每个结点包括两个部分：一个是存储数据元素的数据域，另一个是存储下一个结点地址的指针域。</string>
+			<key>title</key>
+			<string>Codesigner结构</string>
+			<key>content</key>
+			<string>数据结构基础</string>
+		</dict>
+	</array>
+	<key>Algorithm</key>
+	<array>
+		<dict>
+			<key>rawValue</key>
+			<integer>7</integer>
+			<key>imageName</key>
+			<string>sorting</string>
+			<key>introduction</key>
+			<string>In computer science, radix sort is a non-comparative sorting algorithm. It avoids comparison by creating and distributing elements into buckets according to their radix. For elements with more than one significant digit, this bucketing process is repeated for each digit, while preserving the ordering of the prior step, until all digits have been considered. For this reason, radix sort has also been called bucket sort and digital sort.</string>
+			<key>title</key>
+			<string>Radix Sort</string>
+			<key>content</key>
+			<string>Time complexity - O (NlogN)</string>
+		</dict>
+		<dict>
+			<key>rawValue</key>
+			<integer>0</integer>
+			<key>imageName</key>
+			<string>sorting</string>
+			<key>introduction</key>
+			<string>Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order.</string>
+			<key>title</key>
+			<string>Bubble Sort</string>
+			<key>content</key>
+			<string>Time complexity - O (N^2)</string>
+		</dict>
+		<dict>
+			<key>rawValue</key>
+			<integer>6</integer>
+			<key>imageName</key>
+			<string>sorting</string>
+			<key>introduction</key>
+			<string>Like Merge Sort, QuickSort is a Divide and Conquer algorithm. It picks an element as pivot and partitions the given array around the picked pivot. There are many different versions of quickSort that pick pivot in different ways. </string>
+			<key>title</key>
+			<string>Quick Sort</string>
+			<key>content</key>
+			<string>Time complexity - O (NlogN)</string>
+		</dict>
+		<dict>
+			<key>rawValue</key>
+			<integer>5</integer>
+			<key>imageName</key>
+			<string>sorting</string>
+			<key>introduction</key>
+			<string>Like QuickSort, Merge Sort is a Divide and Conquer algorithm. It divides the input array into two halves, calls itself for the two halves, and then merges the two sorted halves. The merge() function is used for merging two halves. The merge(arr, l, m, r) is a key process that assumes that arr[l..m] and arr[m+1..r] are sorted and merges the two sorted sub-arrays into one. </string>
+			<key>title</key>
+			<string>Merge Sort</string>
+			<key>content</key>
+			<string>Time complexity - O (NlogN)</string>
+		</dict>
+		<dict>
+			<key>rawValue</key>
+			<integer>2</integer>
+			<key>imageName</key>
+			<string>sorting</string>
+			<key>introduction</key>
+			<string>Insertion sort is a simple sorting algorithm that works similar to the way you sort playing cards in your hands. The array is virtually split into a sorted and an unsorted part. Values from the unsorted part are picked and placed at the correct position in the sorted part.</string>
+			<key>title</key>
+			<string>Insert Sort</string>
+			<key>content</key>
+			<string>Time complexity - O (N^2)</string>
+		</dict>
+		<dict>
+			<key>rawValue</key>
+			<integer>1</integer>
+			<key>imageName</key>
+			<string>sorting</string>
+			<key>introduction</key>
+			<string>The selection sort algorithm sorts an array by repeatedly finding the minimum element (considering ascending order) from unsorted part and putting it at the beginning. The algorithm maintains two subarrays in a given array.</string>
+			<key>title</key>
+			<string>Select Sort</string>
+			<key>content</key>
+			<string>Time complexity - O (N^2)</string>
+		</dict>
+		<dict>
+			<key>rawValue</key>
+			<integer>4</integer>
+			<key>imageName</key>
+			<string>sorting</string>
+			<key>introduction</key>
+			<string>Heap sort is a comparison-based sorting technique based on Binary Heap data structure. It is similar to selection sort where we first find the minimum element and place the minimum element at the beginning. We repeat the same process for the remaining elements.</string>
+			<key>title</key>
+			<string>Heap Sort</string>
+			<key>content</key>
+			<string>Time complexity - O (N^2)</string>
+		</dict>
+		<dict>
+			<key>rawValue</key>
+			<integer>3</integer>
+			<key>imageName</key>
+			<string>sorting</string>
+			<key>introduction</key>
+			<string>ShellSort is mainly a variation of Insertion Sort. In insertion sort, we move elements only one position ahead. When an element has to be moved far ahead, many movements are involved. The idea of shellSort is to allow exchange of far items. In shellSort, we make the array h-sorted for a large value of h. We keep reducing the value of h until it becomes 1. An array is said to be h-sorted if all sublists of every h’th element is sorted.</string>
+			<key>title</key>
+			<string>Shell Sort</string>
+			<key>content</key>
+			<string>Time complexity - O (N^2)</string>
+		</dict>
+	</array>
+</dict>
+</plist>
