@@ -108,6 +108,10 @@
 		D16DA1C027255C4D00FAC81C /* CalculatorCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16DA1B927255C4D00FAC81C /* CalculatorCodeView.swift */; };
 		D16DA1C127255C4D00FAC81C /* CalculatorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16DA1BA27255C4D00FAC81C /* CalculatorData.swift */; };
 		D16DA1C227255C4D00FAC81C /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16DA1BB27255C4D00FAC81C /* CalculatorView.swift */; };
+		D46354D127547B2B00A8D895 /* CalculatorHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46354D027547B2B00A8D895 /* CalculatorHome.swift */; };
+		D46354D327547BAA00A8D895 /* FunctionalCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46354D227547BAA00A8D895 /* FunctionalCalculator.swift */; };
+		D46354D627547C3400A8D895 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46354D427547C3400A8D895 /* Stack.swift */; };
+		D46354D727547C3400A8D895 /* CalculatorText.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46354D527547C3400A8D895 /* CalculatorText.swift */; };
 		F25198EDF23E126758B0B816 /* Pods_Codesigner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDB9E0FE4416969DD701EDFB /* Pods_Codesigner.framework */; };
 /* End PBXBuildFile section */
 
@@ -221,6 +225,10 @@
 		D16DA1B927255C4D00FAC81C /* CalculatorCodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorCodeView.swift; sourceTree = "<group>"; };
 		D16DA1BA27255C4D00FAC81C /* CalculatorData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorData.swift; sourceTree = "<group>"; };
 		D16DA1BB27255C4D00FAC81C /* CalculatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
+		D46354D027547B2B00A8D895 /* CalculatorHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorHome.swift; sourceTree = "<group>"; };
+		D46354D227547BAA00A8D895 /* FunctionalCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunctionalCalculator.swift; sourceTree = "<group>"; };
+		D46354D427547C3400A8D895 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		D46354D527547C3400A8D895 /* CalculatorText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorText.swift; sourceTree = "<group>"; };
 		FDB9E0FE4416969DD701EDFB /* Pods_Codesigner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Codesigner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -660,6 +668,10 @@
 		D16DA1B427255C4D00FAC81C /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				D46354D527547C3400A8D895 /* CalculatorText.swift */,
+				D46354D427547C3400A8D895 /* Stack.swift */,
+				D46354D227547BAA00A8D895 /* FunctionalCalculator.swift */,
+				D46354D027547B2B00A8D895 /* CalculatorHome.swift */,
 				D16DA1B527255C4D00FAC81C /* CalculatorButton.swift */,
 				D16DA1B627255C4D00FAC81C /* CGFloat.Calculator.swift */,
 				D16DA1B727255C4D00FAC81C /* CalculatorInspectView.swift */,
@@ -824,6 +836,7 @@
 				8493BB96272584BB002CB687 /* StackView.swift in Sources */,
 				8493BB78272584BB002CB687 /* HomeViewModel.swift in Sources */,
 				8493BB88272584BB002CB687 /* SocialContentView.swift in Sources */,
+				D46354D327547BAA00A8D895 /* FunctionalCalculator.swift in Sources */,
 				D16DA1C027255C4D00FAC81C /* CalculatorCodeView.swift in Sources */,
 				8493BB79272584BB002CB687 /* Home.swift in Sources */,
 				8493BC0C2725ACE0002CB687 /* PresentViewController.swift in Sources */,
@@ -843,11 +856,13 @@
 				8493BB97272584BB002CB687 /* StackViewData.swift in Sources */,
 				D16DA1B227255B8900FAC81C /* CustomImageView.swift in Sources */,
 				8493BB7B272584BB002CB687 /* AlgorithmDataHelper.swift in Sources */,
+				D46354D127547B2B00A8D895 /* CalculatorHome.swift in Sources */,
 				8493BBA4272584BB002CB687 /* 2021newTecText.swift in Sources */,
 				8493BB86272584BB002CB687 /* CustomCorner.swift in Sources */,
 				D16DA1AF27255B8900FAC81C /* InspectViewController.swift in Sources */,
 				8493BBA5272584BB002CB687 /* 2021newTec.swift in Sources */,
 				8493BBA2272584BB002CB687 /* AlgorithmIntroductionView.swift in Sources */,
+				D46354D627547C3400A8D895 /* Stack.swift in Sources */,
 				8493BB82272584BB002CB687 /* SignupView.swift in Sources */,
 				8493BBF72725ACE0002CB687 /* SortSwiftUIView.swift in Sources */,
 				8493BC192727DDA9002CB687 /* IntroductionView.swift in Sources */,
@@ -891,6 +906,7 @@
 				8493BBB4272584BB002CB687 /* CertificateRows.swift in Sources */,
 				8493BBFA2725ACE0002CB687 /* AlgorithmDetailViewController.swift in Sources */,
 				8493BB91272584BB002CB687 /* SliderHome.swift in Sources */,
+				D46354D727547C3400A8D895 /* CalculatorText.swift in Sources */,
 				8493BB9A272584BB002CB687 /* swipeActionText.swift in Sources */,
 				8493BC032725ACE0002CB687 /* AlgorithmMainViewController.swift in Sources */,
 				D16DA1C227255C4D00FAC81C /* CalculatorView.swift in Sources */,

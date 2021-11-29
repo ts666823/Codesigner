@@ -236,9 +236,9 @@ let CourseData = [
         shadowColor: Color("shadow2")
     ),
     Course(
-        title: "Build A Calculator Interface",
+        title: "Design the Calculator UI",
         image: "CalCourse2",
-        introduction: "Now you've becomed familiar with these SwiftUI objects, try to build a simple interface of calculator yourself!",
+        introduction: "Now you've becomed familiar with these SwiftUI objects, try to build a simple UI of calculator yourself!",
         backgroundColor: Color("background2"),
         shadowColor: Color("shadow2")
     ),
@@ -246,6 +246,13 @@ let CourseData = [
         title: "Implement A Calculator By Stacks",
         image: "CalCourse3",
         introduction: "Congratulation on your building a calculator interface successfully! Do you want to further implement a calculator? This section about stack perhaps will give you a hint to realize that.",
+        backgroundColor: Color("background2"),
+        shadowColor: Color("shadow2")
+    ),
+    Course(
+        title: "Create A Complete Calculator",
+        image: "CalCourse4",
+        introduction: "Now that you've learned everything you need to know, start building a fully functional calculator!",
         backgroundColor: Color("background2"),
         shadowColor: Color("shadow2")
     )

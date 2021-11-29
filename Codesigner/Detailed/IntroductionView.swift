@@ -68,16 +68,24 @@ struct IntroductionView: View {
                                         UIDesignView {
                                             self.showButtonView = false
                                         }
-                                    } else if UIcourse.title == "Build A Calculator Interface" {
+                                    }
+                                    else if UIcourse.title == "Design the Calculator UI" {
                                         CalculatorView {
                                             self.showButtonView = false
                                         }
-                                    } else {
-                                        StackView()
                                     }
-                                } else {
+                                    else if UIcourse.title == "Implement A Calculator By Stacks"{
+                                        StackView()
+                                        }
+                                    else if UIcourse.title == "Create A Complete Calculator"{
+                                           CalculatorHome()
+                                    }
+                                    }
+                                    
+                                else{
                                     // Fallback on earlier versions
-                                }})
+                                }
+                            })
                         }
                     }
                     .padding(.bottom,30)

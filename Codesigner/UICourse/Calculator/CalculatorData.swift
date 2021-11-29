@@ -65,20 +65,21 @@ class CalculatorData: ObservableObject {
         /// 首部代码
         var code =
         """
-        VStack {
-            VStack(alignment: .center, spacing: 12.0) {
-                Spacer()
-                //显示器
-                HStack {
-                    Spacer()
-                    Text("0")
-                        .font(.system(size:74))
-                        .foregroundColor(Color.white)
-                        .multilineTextAlignment(.trailing)
-                        .padding(.horizontal, 30)
-                }
-                .padding(.horizontal, 12)
-            }
+        
+          VStack {
+              VStack(alignment: .center, spacing: 12.0) {
+                  Spacer()
+                  //显示器
+                  HStack {
+                      Spacer()
+                      Text("0")
+                          .font(.system(size:74))
+                          .foregroundColor(Color.white)
+                          .multilineTextAlignment(.trailing)
+                          .padding(.horizontal, 30)
+                  }
+                  .padding(.horizontal, 12)
+              }
         """
         
         /// 遍历行, 拼接代码
@@ -89,7 +90,7 @@ class CalculatorData: ObservableObject {
             if intersections.count > 0 {
                 code += """
                 \n
-                    HStack {
+                      HStack {
                 """
                 
                 /// 查找已经显示的按钮
@@ -100,24 +101,24 @@ class CalculatorData: ObservableObject {
                     /// 拼接按钮代码
                     code += """
                             \n
-                            Button(action: {}) {
-                                Text("\(button.title)")
-                                    .font(.system(size: 28))
-                                    .foregroundColor(.white)
-                                    .frame(width: \(button.title == "0" ? size * 2 + 12 : size), height: \(size))
-                                    .background(\(button.color.name))
-                                    .cornerRadius(\(size))
-                            }\n
+                              Button(action: {}) {
+                                  Text("\(button.title)")
+                                      .font(.system(size: 28))
+                                      .foregroundColor(.white)
+                                      .frame(width: \(button.title == "0" ? size * 2 + 12 : size), height: \(size))
+                                      .background(\(button.color.name))
+                                      .cornerRadius(\(size))
+                              }\n
                     """
                 }
                 code += """
-                    }\n
+                      }\n
                 """
             }
         }
         /// 尾部闭合括号代码
         code += """
-        }
+          }
         """
         self.code = code
     }
@@ -131,9 +132,9 @@ fileprivate extension Color {
         if self == .orange {
             return ".orange"
         } else if self == .darkGray {
-            return "Color(red:0.2,green: 0.2,blue:0.2)"
+            return "Color.darkGray"
         } else if self == .lightGray {
-            return "Color(red:0.6,green: 0.6,blue:0.6)"
+            return "Color.lightGray"
         }
         return ""
     }

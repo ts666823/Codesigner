@@ -127,7 +127,7 @@ struct CalculatorPad: View {
 
 extension String {
  
-    mutating func ConverCalculateChar() -> [String] {//将输入的数字、字符转为合法字符串
+    mutating func ConverCalculateChar2() -> [String] {//将输入的数字、字符转为合法字符串
         var console = true //控制合成连续数字字符
         var SerialNumber = ""
         var strArr = [String]()

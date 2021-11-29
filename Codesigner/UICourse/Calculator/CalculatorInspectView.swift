@@ -51,31 +51,41 @@ struct CalculatorInspectView: View {
     @EnvironmentObject var data: CalculatorData
     
     var body: some View {
-        VStack {
-            
-            ForEach(0..<keys.count) { index in
-                HStack {
-                    ForEach(keys[index]) { key in
-                        Button(action: {
-//                            if let index = data.selectedKeys.firstIndex(of: key.title) {
-//                                data.selectedKeys.remove(at: index)
-//                            } else {
-//                                data.selectedKeys.append(key.title)
-//                            }
-                            if data.selectedKeys.contains(key.title) == false {
-                                data.selectedKeys.append(key.title)
+        let bgcolor = Color(red: 0.8039, green: 0.82745, blue: 0.88235)
+        ZStack{
+            //Color(UIColor(red: 205, green: 211, blue: 225, alpha: 1)).ignoresSafeArea()
+            bgcolor.ignoresSafeArea()
+            VStack {
+                ForEach(0..<keys.count) { index in
+                    HStack {
+                        ForEach(keys[index]) { key in
+                            Button(action: {
+    //                            if let index = data.selectedKeys.firstIndex(of: key.title) {
+    //                                data.selectedKeys.remove(at: index)
+    //                            } else {
+    //                                data.selectedKeys.append(key.title)
+    //                            }
+                                if data.selectedKeys.contains(key.title) == false {
+                                    data.selectedKeys.append(key.title)
+                                }
+                            }) {
+                                Text(key.title)
+                                    .font(.system(size: 28))
+                                    .foregroundColor(.white)
+                                    .frame(width: size, height: size)
+                                    .background(key.color)
+                                    .cornerRadius(size)
                             }
-                        }) {
-                            Text(key.title)
-                                .font(.system(size: 28))
-                                .foregroundColor(.white)
-                                .frame(width: size, height: size)
-                                .background(key.color)
-                                .cornerRadius(size)
                         }
                     }
                 }
             }
+            //.background(Color(UIColor(red: 225, green: 211, blue: 225, alpha: 1)))
+
         }
+        .cornerRadius(8.0)
+        .padding(0)
+
     }
+
 }

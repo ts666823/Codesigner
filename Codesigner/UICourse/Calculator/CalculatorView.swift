@@ -57,10 +57,16 @@ struct CalculatorView: UIViewControllerRepresentable {
 struct CalculatorMasterView: View {
 
     var body: some View {
+        let bgcolor = Color(red: 0.8039, green: 0.82745, blue: 0.88235)
+
         VStack {
             CalculatorInspectView()
             CalculatorCodeView()
         }
+        //.background(Color(red: 0.8039, green: 0.82745, blue: 0.88235))
+        .cornerRadius(8.0)
+        .padding(10)
+
     }
 }
 
