@@ -6,7 +6,6 @@
 
 ### 界面设计：
 
-![78031624154072_.pic_hd](/Users/admin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/14abb37119cb4c31e01b0423bc88e65f/Message/MessageTemp/cb33e49021d493d8bf770ebe019efc77/Image/78031624154072_.pic_hd.jpg)
 
 ### 关键代码：
 
@@ -65,7 +64,6 @@ HStack(alignment: .lastTextBaseline){
 
 1. 算法：二叉树展示
 
-   <img src="/Users/admin/Library/Application Support/typora-user-images/simulator_screenshot_D693B3E6-B476-431D-9A39-394EC837A513.png" alt="simulator_screenshot_D693B3E6-B476-431D-9A39-394EC837A513" style="zoom:25%;" />
 
    ```swift
    //增加树节点的逻辑。左子树比父节点小，右子树比父节点大
@@ -144,7 +142,6 @@ HStack(alignment: .lastTextBaseline){
 
 2. 数据结构：链表数组
 
-   <img src="/Users/admin/Library/Application Support/typora-user-images/simulator_screenshot_352DC426-970A-4CED-AEB7-616A897EC659.png" alt="simulator_screenshot_352DC426-970A-4CED-AEB7-616A897EC659" style="zoom:25%;" />
 
    ```swift
    struct DataStructureMain: View {
@@ -205,7 +202,6 @@ HStack(alignment: .lastTextBaseline){
 
 ### 界面设计：
 
-<img src="/Users/admin/Library/Application Support/typora-user-images/截屏2021-06-19 17.08.06.png" alt="截屏2021-06-19 17.08.06" style="zoom:50%;" />
 
 ### 关键代码：
 
@@ -292,7 +288,6 @@ struct shareDetail: View{
 
 ### 界面设计（由Figma完成制作）：
 
-![截屏2021-06-20 13.59.14](/Users/admin/Library/Application Support/typora-user-images/截屏2021-06-20 13.59.14.png)
 
 ### 技术特色：
 
